@@ -1,0 +1,23 @@
+.main-page-wrap {
+    display: flex;
+    justify-content: center;
+    background-color: #dae0e6;
+    flex-wrap: 2;
+}
+
+.main-page {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: 170px;
+    width: 60%; 
+    /* column-gap: 10px; */
+    grid-gap: 10px;
+}
+
+.item1 {
+    /* height: 60px; */
+    /* border: 1px solid #40ac52; */
+    background-color: blue;
+    color: cornsilk;
+    border-radius: 10px;;
+}
