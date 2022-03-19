@@ -7,13 +7,13 @@
   display: flex;
   flex-direction: column;
   margin-bottom: 40px;
-  width: 100vh;
+  width: 110vh;
 }
 
 .trending-today-area {
   display: flex;
   flex-direction: column;
-  padding: 20px 0;
+  padding: 15px 0;
 }
 
 .trending-today-content {
@@ -25,13 +25,91 @@
 .trending-content {
   background-color: blue;
   color: cornsilk;
-  border-radius: 10px;
-  height: 150px;
+  border-radius: 8px;
+  height: 175px;
 }
 
 .trending-today-title,
 .popular-posts-title {
   text-align: left;
+  margin-bottom: 8px;
+  font-size: 13px;
+}
+
+.trending-content1 {
+  background-image: url("./image1.jpeg");
+  background-size: cover;
+  position: relative;
+}
+
+.trending-content2 {
+  background-image: url("./image2.jpeg");
+  background-size: cover;
+}
+
+.trending-content3 {
+  background-image: url("./image3.jpeg");
+  background-size: cover;
+}
+
+.trending-content4 {
+  background-image: url("./image4.jpeg");
+  background-size: cover;
+}
+
+.overlay {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: flex-end;
+  border-radius: 7px;
+  text-align: left;
+  color: #ffff;
+  line-height: 0.8;
+}
+
+.overlay-title {
+  padding-left: 7px;
+  font-size: 16px;
+  line-height: 1.3;
+}
+
+.overlay-paragraph-wrapper {
+  line-height: 0.7;
+}
+
+.overlay-paragraph1,
+.overlay-paragraph2 {
+  padding-left: 7px;
+  font-size: 14px;
+  line-height: 1.3;
+  letter-spacing: 0.3px;
+}
+
+.overlay-paragraph2 {
+  padding-bottom: 7px;
+}
+
+.overlay-foot {
+  display: flex;
+  font-size: 7px;
+  padding-left: 7px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  align-items: center;
+}
+.handshake-icon,
+.hbomax-icon,
+.politics-icon {
+  width: 15px;
+  border-radius: 50%;
+  align-self: center;
+  margin-right: 4px;
+}
+
+.overlay-foot-text {
+  font-size: 12px;
 }
 
 .popular-posts-area {
@@ -46,7 +124,7 @@
 }
 
 .popular-main1 {
-  height: 5vh;
+  height: 8vh;
 }
 
 .popular-main2 {
@@ -54,32 +132,32 @@
 }
 
 .popular-main3 {
-  height: 70vh;
+  height: 65vh;
 }
 
 .popular-main {
   background-color: blue;
   color: cornsilk;
   border-radius: 5px;
-  width: 550px;
+  width: 74vh;
   margin-bottom: 10px;
-  margin-right: 5px;
+  margin-right: 11px;
 }
 
 .popular-side {
   background-color: blue;
   color: cornsilk;
   border-radius: 5px;
-  margin-bottom: 15px;
-  margin-left: 5px;
+  margin-bottom: 11px;
+  margin-left: 9px;
 }
 
 .popular-side1 {
-  height: 45vh;
+  height: auto;
 }
 
 .popular-side2 {
-  height: 10vh;
+  height: auto;
 }
 
 .popular-side3 {
@@ -87,5 +165,202 @@
 }
 
 .popular-side4 {
-  height: 30vh;
+  height: auto;
+}
+
+/* Side1 */
+
+.popular-side1 {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffff;
+}
+
+.side1-header {
+  height: 100px;
+  background-image: url("./bay_area.jpeg");
+  background-size: cover;
+}
+
+.side1-header-description {
+  padding-left: 20px;
+}
+
+.overlay-side {
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+.side1-main {
+  height: auto;
+}
+
+.side1-main-row {
+  color: #1d2327;
+  border-bottom: 2px solid #dae0e6;
+  height: 50px;
+  font-size: 14px;
+  font-weight: bold;
+  align-items: center;
+}
+
+.number {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.side1-main-row {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 10px;
+}
+
+.main-row-left {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.sfba-icon,
+.sf-icon,
+.r-icon,
+.alameda-icon {
+  width: 30px;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+
+.side1-btn {
+  display: flex;
+  justify-content: center;
+}
+
+.btn-view-all {
+  width: 90%;
+  border: none;
+  padding: 10px 0px;
+  border-radius: 20px;
+  font-weight: 900;
+  letter-spacing: 0.5px;
+  font-size: 14px;
+  background-color: #0179d2;
+  color: #ffff;
+  margin-top: 10px;
+}
+
+.btn-join {
+  border: none;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: bold;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: #0179d2;
+  color: #ffff;
+}
+
+.side1-footer {
+  display: flex;
+  margin-left: 15px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.btn-side1-foot {
+  margin-right: 10px;
+  background-color: #eef3f7;
+  border: none;
+  padding: 6px 9px;
+  border-radius: 15px;
+  color: #0179d2;
+  font-weight: 900;
+}
+
+/* Side2 */
+
+.popular-side2 {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffff;
+}
+
+.reddit-premium-paragraph {
+  display: flex;
+  color: #666969;
+  align-items: center;
+  line-height: 1.4;
+}
+
+.reddit-premium-icon {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.premium-title {
+  font-weight: bold;
+  color: #0c0f11;
+}
+
+.reddit-premium-text {
+  font-size: 12px;
+  text-align: left;
+}
+
+.reddit-premium-text h4 {
+  font-weight: bold;
+}
+
+.btn-try-now {
+  width: 90%;
+  align-self: center;
+  background-color: #ff4500;
+  color: #ffff;
+  border: none;
+  padding: 8px 0px;
+  border-radius: 20px;
+  font-weight: 900;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+/* Side3 */
+
+/* Side4 */
+
+.popular-side4 {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffff;
+  color: #494b4b;
+  font-size: 12px;
+  text-align: left;
+  padding: 10px;
+}
+
+.side4-main {
+  display: flex;
+  line-height: 2;
+}
+
+.side4-main li {
+  list-style: none;
+}
+
+.side4-col {
+  /* width: 50%; */
+  margin-left: 0px;
+}
+
+.side4-help {
+  width: 50%;
+}
+
+.side4-footer {
+  width: 100%;
+  margin-top: 20px;
 }
