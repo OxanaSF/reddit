@@ -1,31 +1,31 @@
-
-import "./Navbar.css"
-import redditLogo from "./reddit.png"
-import searchIcon from "./icons8-search-30-grey.png"
-import searchIconActive from "./icons8-search-30-grey-active.png"
-// import expandArrowIcon from "./icons8-expand-arrow-30.png"
-import userIcon from "./user-icon.png"
-
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faReddit } from "@fortawesome/free-brands-svg-icons"
-import { useState } from "react"
-// import { FaSearch, FaUser, FaArrowDown } from "react-icons/fa";
+import "./Navbar.css";
+import searchIcon from "./icons8-search-30-grey.png";
+import userIcon from "./user-icon.png";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faReddit } from "@fortawesome/free-brands-svg-icons";
+import { useState } from "react";
 
 const Navbar = () => {
-
   const [image, setImage] = useState(false);
-
 
   return (
     <nav className="nav">
       <div className="logo-box">
         <FontAwesomeIcon className="icon raddit-icon  fa-2xl" icon={faReddit} />
-        <img className="reddit-logo" src={redditLogo} alt="reddit-logo" />
+        <img
+          className="reddit-logo"
+          src={`${process.env.PUBLIC_URL}/images/reddit.png`}
+          alt="reddit-logo"
+        />
       </div>
 
       <form>
-      <img className="search-icon" src={searchIcon} alt="search-icon" />
-        {/* <img className={image ? "search-icon" : "" } src={image ? searchIcon : searchIconActive} alt="search-icon" /> */}
+        <img
+          className="search-icon"
+          // src={`${process.env.PUBLIC_URL}/images/icons8-search-30-grey.png`}
+          src={searchIcon}
+          alt="search-icon"
+        />
         <div className="search-icon"></div>
         <input type="search" placeholder="Search Reddit"></input>
       </form>

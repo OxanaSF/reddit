@@ -1,13 +1,4 @@
 import "./Main.css";
-import handshakeIcon from "./handshake.jpeg";
-import hbomax from "./hbomax.jpeg";
-import politics from "./politics.jpeg";
-import sfbaIcon from "./sfba.jpeg";
-import sfIcon from "./sf.jpeg";
-import berkeleyIcon from "./berkeley.jpeg";
-import alamedaIcon from "./alameda.jpeg";
-import rIcon from "./r.jpeg";
-import redditPremiumIcon from "./reddit_premium.jpeg";
 
 const Main = () => {
   return (
@@ -30,7 +21,7 @@ const Main = () => {
                   <div className="overlay-foot">
                     <img
                       className="handshake-icon"
-                      src={handshakeIcon}
+                      src={`${process.env.PUBLIC_URL}/images/handshake.jpeg`}
                       alt="handshake-icon"
                     />
 
@@ -54,7 +45,7 @@ const Main = () => {
                   <div className="overlay-foot">
                     <img
                       className="hbomax-icon"
-                      src={hbomax}
+                      src={`${process.env.PUBLIC_URL}/images/hbomax.jpeg`}
                       alt="hbomax-icon"
                     />
 
@@ -96,7 +87,7 @@ const Main = () => {
                   <div className="overlay-foot">
                     <img
                       className="politics-icon"
-                      src={politics}
+                      src={`${process.env.PUBLIC_URL}/images/politics.jpeg`}
                       alt="politics-icon"
                     />
 
@@ -132,7 +123,7 @@ const Main = () => {
                       <div className="number">1</div>
                       <img
                         className="sfba-icon"
-                        src={sfbaIcon}
+                        src={`${process.env.PUBLIC_URL}/images/sfba.jpeg`}
                         alt="sfba-icon"
                       />
                       <div className="text">r/bayarea</div>
@@ -143,7 +134,11 @@ const Main = () => {
                   <div className="side1-main-row">
                     <div className="main-row-left">
                       <div className="number">2</div>
-                      <img className="sf-icon" src={sfIcon} alt="sf-icon" />
+                      <img
+                        className="sf-icon"
+                        src={`${process.env.PUBLIC_URL}/images/sf.jpeg`}
+                        alt="sf-icon"
+                      />
                       <div className="text">r/sanfrancisco</div>
                     </div>
                     <button className="btn btn-join">Join</button>
@@ -154,7 +149,7 @@ const Main = () => {
                       <div className="number">3</div>
                       <img
                         className="sfba-icon"
-                        src={berkeleyIcon}
+                        src={`${process.env.PUBLIC_URL}/images/berkeley.jpeg`}
                         alt="sfba-icon"
                       />
                       <div className="text">r/berkeley</div>
@@ -165,7 +160,11 @@ const Main = () => {
                   <div className="side1-main-row">
                     <div className="main-row-left">
                       <div className="number">4</div>
-                      <img className="r-icon" src={rIcon} alt="r-icon" />
+                      <img
+                        className="r-icon"
+                        src={`${process.env.PUBLIC_URL}/images/r.jpeg`}
+                        alt="r-icon"
+                      />
                       <div className="text">r/oakland</div>
                     </div>
                     <button className="btn btn-join">Join</button>
@@ -176,7 +175,7 @@ const Main = () => {
                       <div className="number">5</div>
                       <img
                         className="alameda-icon"
-                        src={alamedaIcon}
+                        src={`${process.env.PUBLIC_URL}/images/alameda.jpeg`}
                         alt="alameda-icon"
                       />
 
@@ -200,7 +199,7 @@ const Main = () => {
                 <div className="reddit-premium-paragraph">
                   <img
                     className="reddit-premium-icon"
-                    src={redditPremiumIcon}
+                    src={`${process.env.PUBLIC_URL}/images/reddit_premium.jpeg`}
                     alt="reddit-premium-icon"
                   />
 
