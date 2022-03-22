@@ -102,10 +102,20 @@ const Main = () => {
         <div className="popular-posts-area">
           <div className="popular-posts-title">Popular posts</div>
           <div className="popular-posts-content">
-            <div className="popular-posts-content-main">
+            <div className="popular-posts-content-main1">
               <div className="popular-main popular-main1">1</div>
-              <div className="popular-main popular-main2">2</div>
-              <div className="popular-main popular-main3">3</div>
+
+              <div className="popular-main popular-main2">
+                <div className="top-section"></div>
+                <div className="middle-section2"></div>
+                <div className="bottom-section"></div>
+              </div>
+
+              <div className="popular-main popular-main3">
+                <div className="top-section"></div>
+                <div className="middle-section3"></div>
+                <div className="bottom-section"></div>
+              </div>
             </div>
 
             <div className="popular-posts-content-side">
@@ -214,7 +224,88 @@ const Main = () => {
                 <button className="btn btn-try-now">Try Now</button>
               </div>
 
-              <div className="popular-side popular-side3">3</div>
+              <div className="popular-side popular-side3">
+                <div className="side3-header">
+                  <div className="side3-header-title">POPULAR COMMUNITIES</div>
+                  <div className="side3-header-content">
+                    <p>
+                      AskReddit NoStupidQuestions <br></br>
+                      DestinyTheGame explainlikeimfive
+                    </p>
+                  </div>
+                  <div className="side3-header-see-more">
+                    <p>See more</p>
+                  </div>
+                </div>
+
+                <div className="side3-main">
+                  <div className="side3-main-row">
+                    <div className="main-row-left">
+                      <div className="side3-categories gaming">gaming</div>
+                    </div>
+                    <img
+                      className="r-icon"
+                      src={`${process.env.PUBLIC_URL}/images/btn_arrow_down.jpeg`}
+                      alt="r-icon"
+                    />
+                  </div>
+
+                  <div className="side3-main-row">
+                    <div className="main-row-left">
+                      <div className="side3-categories">sports</div>
+                    </div>
+                    <img
+                      className="r-icon"
+                      src={`${process.env.PUBLIC_URL}/images/btn_arrow_down.jpeg`}
+                      alt="r-icon"
+                    />
+                  </div>
+
+                  <div className="side3-main-row">
+                    <div className="main-row-left">
+                      <div className="side3-categories">tv</div>
+                    </div>
+                    <img
+                      className="r-icon"
+                      src={`${process.env.PUBLIC_URL}/images/btn_arrow_down.jpeg`}
+                      alt="r-icon"
+                    />
+                  </div>
+
+                  <div className="side3-main-row">
+                    <div className="main-row-left">
+                      <div className="side3-categories">travel</div>
+                    </div>
+                    <img
+                      className="r-icon"
+                      src={`${process.env.PUBLIC_URL}/images/btn_arrow_down.jpeg`}
+                      alt="r-icon"
+                    />
+                  </div>
+
+                  <div className="side3-main-row">
+                    <div className="main-row-left">
+                      <div className="side3-categories">health & fitness</div>
+                    </div>
+                    <img
+                      className="r-icon"
+                      src={`${process.env.PUBLIC_URL}/images/btn_arrow_down.jpeg`}
+                      alt="r-icon"
+                    />
+                  </div>
+
+                  <div className="side3-main-row">
+                    <div className="main-row-left">
+                      <div className="side3-categories">fashion</div>
+                    </div>
+                    <img
+                      className="r-icon"
+                      src={`${process.env.PUBLIC_URL}/images/btn_arrow_down.jpeg`}
+                      alt="r-icon"
+                    />
+                  </div>
+                </div>
+              </div>
 
               <div className="popular-side popular-side4">
                 <div className="side4-main">

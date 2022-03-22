@@ -152,20 +152,26 @@
   margin-left: 9px;
 }
 
-.popular-side1 {
-  height: auto;
-}
-
-.popular-side2 {
-  height: auto;
-}
-
-.popular-side3 {
-  height: 40vh;
-}
-
+.popular-side1,
+.popular-side2,
+.popular-side3,
 .popular-side4 {
   height: auto;
+  background-color: #ffff;
+}
+
+/* Main Area */
+
+.middle-section2 {
+  height: 100%;
+  background-image: url("./china-mall.jpeg");
+  background-size: cover;
+}
+
+.middle-section3 {
+  height: 100%;
+  background-image: url("./tundra.jpeg");
+  background-size: cover;
 }
 
 /* Side1 */
@@ -173,7 +179,6 @@
 .popular-side1 {
   display: flex;
   flex-direction: column;
-  background-color: #ffff;
 }
 
 .side1-header {
@@ -196,24 +201,23 @@
   height: auto;
 }
 
-.side1-main-row {
+.side1-main-row,
+.side2-main-row,
+.side3-main-row {
   color: #1d2327;
   border-bottom: 2px solid #dae0e6;
   height: 50px;
   font-size: 14px;
   font-weight: bold;
   align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 10px;
 }
 
 .number {
   padding-left: 20px;
   padding-right: 20px;
-}
-
-.side1-main-row {
-  display: flex;
-  justify-content: space-between;
-  padding-right: 10px;
 }
 
 .main-row-left {
@@ -329,6 +333,48 @@
 }
 
 /* Side3 */
+.popular-side3 {
+  text-align: left;
+  font-size: 10px;
+  padding-top: 10px;
+  color: black;
+}
+
+.side3-header {
+  padding-left: 10px;
+}
+
+.side3-header-title {
+  font-size: 9px;
+  letter-spacing: 0.2px;
+  font-weight: 900;
+}
+
+.side3-header-content p {
+  word-spacing: 17px;
+  line-height: 22px;
+}
+
+.side3-main {
+  border-top: 1px solid #dae0e6;
+}
+
+.side3-main-row {
+  text-transform: uppercase;
+  border-bottom: 1px solid #dae0e6;
+  height: 40px;
+  letter-spacing: 0.5px;
+  font-size: 8px;
+  padding-left: 10px;
+}
+
+.side3-header-see-more {
+  color: #046cbb;
+  font-size: 12px;
+  font-weight: 900;
+  font-weight: bolder;
+  padding-bottom: 7px;
+}
 
 /* Side4 */
 
@@ -336,8 +382,8 @@
   display: flex;
   flex-direction: column;
   background-color: #ffff;
-  color: #494b4b;
-  font-size: 12px;
+  color: #1a1b1b;
+  font-size: 10px;
   text-align: left;
   padding: 10px;
 }
