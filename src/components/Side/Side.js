@@ -3,8 +3,6 @@ import React from "react";
 const Side = () => {
   return (
     <div className="popular-posts-content-side">
-      {/* Side part */}
-
       <div className="popular-side popular-side1">
         <div className="side1-header">
           <div className="overlay overlay-side">
