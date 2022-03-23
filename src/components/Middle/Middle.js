@@ -1,5 +1,5 @@
-import React from "react";
-// import './Middle.css'
+import React from 'react';
+
 
 const Middle = () => {
   return (

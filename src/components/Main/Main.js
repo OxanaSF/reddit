@@ -1,8 +1,8 @@
-import "./Main.css";
-import sunIcon from "./sun-icon.jpeg";
-import Side from "../Side/Side";
-import Middle from "../Middle/Middle";
-import Top from "../Top/Top";
+import './Main.css'
+import sunIcon from './sun-icon.jpeg'
+import Side from '../Side/Side'
+import Middle from '../Middle/Middle'
+import Top from '../Top/Top'
 
 const Main = () => {
   return (
