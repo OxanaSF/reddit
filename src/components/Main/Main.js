@@ -9,16 +9,18 @@ const Main = () => {
           <div className="trending-today-title">Trending today</div>
           <div className="trending-today-content">
             <div className="trending-content trending-content1">
+
+
               <div className="overlay">
                 <div>
-                  <span className="overlay-title">Kaspersky</span>
-                  <br></br>
-                  <span className="overlay-paragraph1">
+                  <div className="overlay-title">Kaspersky</div>
+
+                  <div className="overlay-paragraph1">
                     Germany's Cyber Authority Tells<br></br>
-                  </span>
-                  <span className="overlay-paragraph2">
+                  </div>
+                  <div className="overlay-paragraph2">
                     Public to Stop Using Kaspersky...
-                  </span>
+                  </div>
                   <div className="overlay-foot">
                     <img
                       className="handshake-icon"
@@ -32,17 +34,18 @@ const Main = () => {
                   </div>
                 </div>
               </div>
+
+
             </div>
 
             <div className="trending-content trending-content4">
               <div className="overlay">
                 <div>
-                  <span className="overlay-title">All on HBO Max</span>
-                  <br></br>
-                  <span className="overlay-paragraph1">
-                    Stream the latest hit movies and<br></br>
-                  </span>
-                  <span className="overlay-paragraph2">new originals.</span>
+                  <div className="overlay-title">All on HBO Max</div>
+                  <div className="overlay-paragraph1">
+                    Stream the latest hit movies and
+                  </div>
+                  <div className="overlay-paragraph2">new originals.</div>
                   <div className="overlay-foot">
                     <img
                       className="hbomax-icon"
@@ -59,14 +62,14 @@ const Main = () => {
             <div className="trending-content trending-content3">
               <div className="overlay">
                 <div>
-                  <span className="overlay-title">Marina Ovsyannikova</span>
-                  <br></br>
-                  <span className="overlay-paragraph1">
-                    Marina Ovsyannikova: Russiand<br></br>
-                  </span>
-                  <span className="overlay-paragraph2">
+                  <div className="overlay-title">Marina Ovsyannikova</div>
+      
+                  <div className="overlay-paragraph1">
+                    Marina Ovsyannikova: Russiand
+                  </div>
+                  <div className="overlay-paragraph2">
                     journalist tells of 14-hour...
-                  </span>
+                  </div>
                   <div className="overlay-foot">
                     <div className="overlay-foot-text">u/hbomax and more</div>
                   </div>
@@ -77,14 +80,14 @@ const Main = () => {
             <div className="trending-content trending-content2">
               <div className="overlay">
                 <div>
-                  <span className="overlay-title">Daylight Saving Time</span>
-                  <br></br>
-                  <span className="overlay-paragraph1">
-                    U.S. Senate approves bill that<br></br>
-                  </span>
-                  <span className="overlay-paragraph2">
+                  <div className="overlay-title">Daylight Saving Time</div>
+                 
+                  <div className="overlay-paragraph1">
+                    U.S. Senate approves bill that
+                  </div>
+                  <div className="overlay-paragraph2">
                     would make Daylight Savings...
-                  </span>
+                  </div>
                   <div className="overlay-foot">
                     <img
                       className="politics-icon"
@@ -103,6 +106,7 @@ const Main = () => {
         {/* MIDDLE PART */}
 
         <div className="popular-posts-area">
+
           <div className="popular-posts-title">Popular posts</div>
 
           <div className="popular-posts-content">
@@ -111,7 +115,10 @@ const Main = () => {
             <div className="popular-posts-content-main1">
               {/* middle part */}
 
-              <div className="popular-main popular-main1">
+
+              {/* <div className="popular-main-main1-wrap"> */}
+              <div className="popular-main1">
+                {/* middle top part */}
                 <div className="popular-main1-wrap">
                   <div className="popular-main1-left">
                     <button className="main1-left-element btn-hot">
@@ -156,6 +163,7 @@ const Main = () => {
                   </div>
                 </div>
               </div>
+              {/* </div> */}
 
               <div className="popular-main popular-main2">
                 <div className="left-section">

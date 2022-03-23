@@ -10,7 +10,6 @@ form,
 .logo-box,
 .sign-in-box {
   display: flex;
-  /* justify-content: space-evenly; */
 }
 
 .raddit-icon {
@@ -26,9 +25,6 @@ form,
   align-self: center;
 }
 
-/* .logo-text {
-} */
-
 nav form {
   padding-left: 20px;
   background-color: #f6f8fa;
@@ -39,12 +35,10 @@ nav form {
   border: 0.5px solid #e6e7e7;
 }
 
-
 nav form:hover {
-    background-color: #ffffff;
-    border: 0.5px solid #0179d2;
-  }
-
+  background-color: #ffffff;
+  border: 0.5px solid #0179d2;
+}
 
 nav form input {
   background-color: #f6f8fa;
@@ -54,7 +48,6 @@ nav form input {
 
 nav form input:hover {
   background-color: #ffffff;
-  /* border: 0.5px solid #0179d2; */
   cursor: pointer;
 }
 
@@ -67,14 +60,10 @@ nav form input::placeholder {
 }
 
 nav form .search-icon {
-  /* display: flex; */
   align-self: center;
   padding-right: 0px;
   height: 32px;
-  background-image: url('./icons8-search-30-grey.png');
-
-  /* color: #6d6e6e; */
-  /* font-weight: lighter; */
+  background-image: url("./icons8-search-30-grey.png");
 }
 
 .button {
@@ -99,16 +88,15 @@ nav form .search-icon {
   font-weight: bolder;
 }
 
-
 .user-icon {
-  align-self: center; 
+  align-self: center;
   border: none;
   height: 30px;
   margin-right: 20px;
   border: 0.5px solid #ffff;
 }
 
-.user-icon:hover  {
-    border: 0.5px solid #e6e7e7;
-    cursor: pointer;
+.user-icon:hover {
+  border: 0.5px solid #e6e7e7;
+  cursor: pointer;
 }

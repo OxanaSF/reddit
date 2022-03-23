@@ -1,5 +1,6 @@
 import "./Navbar.css";
 import searchIcon from "./icons8-search-30-grey.png";
+// import searchIconHover from "./icons8-search-30-grey.png";
 import userIcon from "./user-icon.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faReddit } from "@fortawesome/free-brands-svg-icons";
@@ -22,7 +23,7 @@ const Navbar = () => {
       <form>
         <img
           className="search-icon"
-          // src={`${process.env.PUBLIC_URL}/images/icons8-search-30-grey.png`}
+          // src={image ? searchIcon : searchIconHover}
           src={searchIcon}
           alt="search-icon"
         />
