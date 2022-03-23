@@ -23,7 +23,7 @@
 }
 
 .trending-content {
-  background-color: blue;
+  /* background-color: blue; */
   color: cornsilk;
   border-radius: 8px;
   height: 175px;
@@ -124,7 +124,7 @@
 }
 
 .popular-main1 {
-  height: 8vh;
+  height: 6vh;
 }
 
 .popular-main2 {
@@ -136,7 +136,7 @@
 }
 
 .popular-main {
-  background-color: blue;
+  background-color: #ffff;
   color: cornsilk;
   border-radius: 5px;
   width: 74vh;
@@ -144,8 +144,15 @@
   margin-right: 11px;
 }
 
+.interasf-icon,
+.something-icon {
+  width: 25px;
+  border-radius: 50%;
+  align-self: center;
+  margin-right: 4px;
+}
+
 .popular-side {
-  background-color: blue;
   color: cornsilk;
   border-radius: 5px;
   margin-bottom: 11px;
@@ -162,6 +169,191 @@
 
 /* Main Area */
 
+.popular-main1-wrap {
+  display: flex;
+  justify-content: space-between;
+  color: #666969;
+  padding: 20px;
+}
+
+.popular-main1-left {
+  display: flex;
+}
+
+.btn-hot {
+  display: flex;
+  background-color: #f6f8fa;
+  border: none;
+  border-radius: 40px;
+  padding: 3px 8px;
+  width: 60px;
+  color: #187cd3;
+  font-size: 11px;
+  font-weight: 900;
+  letter-spacing: 0.2px;
+  align-items: center;
+}
+
+.hot-icon {
+  width: 20px;
+  border-radius: 50%;
+  align-self: center;
+  margin-right: 4px;
+  align-self: center;
+}
+
+.btn-everywhere {
+  background-color: #f6f8fa;
+  border: none;
+  border-radius: 40px;
+  padding: 5px 7px;
+  width: 80px;
+  color: #187cd3;
+  font-size: 10px;
+  font-weight: 900;
+  letter-spacing: 0.2px;
+}
+
+.btn-new,
+.btn-top {
+  background-color: #ffff;
+  border: none;
+  color: #959898;
+  letter-spacing: 0.2px;
+}
+
+.drop_down_arrow {
+  box-sizing: border-box;
+  height: 5px;
+  width: 5px;
+  border-style: solid;
+  border-color: #959898;
+  border-width: 0px 1px 1px 0px;
+  transform: rotate(45deg);
+  transition: border-width 150ms ease-in-out;
+}
+
+.main1-left-element {
+  margin-right: 10px;
+  font-size: 10px;
+  font-weight: 900;
+}
+
+.popular-main1-right {
+  display: flex;
+}
+
+.popular-main2,
+.popular-main3 {
+  display: flex;
+}
+
+.popular-main2 .left-section {
+  color: #070707;
+  font-size: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  font-weight: bold;
+}
+
+.sun-icon {
+  width: 25px;
+  border-radius: 50%;
+  align-self: center;
+  margin-right: 4px;
+  padding-right: 0px;
+  margin-right: 0px;
+}
+
+.box-icon {
+  width: 40px;
+}
+.popular-main2 .top-section p {
+  color: #070707;
+  text-align: left;
+  padding-left: 10px;
+  font-size: 12px;
+}
+
+.top-section .top-section-top {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  color: #070707;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.top-section-top-sub {
+  display: flex;
+  height: 2vh;
+}
+
+.top-section-top-sub .par2 {
+  color: #959898;
+}
+.el {
+  padding-right: 5px;
+}
+
+.btn-r-all {
+  background-color: #eaebec;
+  border: none;
+  border-radius: 40px;
+  padding: 3px 5px;
+  width: 40px;
+  color: #555454;
+  font-size: 9px;
+  letter-spacing: 0.2px;
+  align-self: center;
+}
+
+.top-section .top-section-bottom {
+  color: #070707;
+  font-size: 13px;
+  font-weight: bold;
+  text-align: left;
+  padding-left: 10px;
+  padding-bottom: 5px;
+  padding-top: 0px;
+}
+
+.left-section {
+  background-color: #f6f8fa;
+  padding-top: 10px;
+}
+
+.arrow-up-icon,
+.arrow-down-icon {
+  width: 25px;
+}
+
+.arrow-down-icon {
+  padding-top: 5px;
+}
+
+.right-section {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.popular-main3 .left-section {
+  padding: 10px;
+  color: #070707;
+  font-size: 10px;
+  font-weight: bold;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+.toyota-icon {
+  width: 20px;
+  border-radius: 50%;
+  align-self: center;
+  margin-right: 4px;
+}
+
 .middle-section2 {
   height: 100%;
   background-image: url("./china-mall.jpeg");
@@ -172,11 +364,57 @@
   height: 100%;
   background-image: url("./tundra.jpeg");
   background-size: cover;
+  margin-left: 35px;
+}
+
+.bottom-section {
+  display: flex;
+}
+
+.bottom-section {
+  display: flex;
+  color: #555454;
+  font-weight: 900;
+  padding: 10px;
+  letter-spacing: 0.2px;
+}
+
+.bottom-bottom-section1,
+.bottom-bottom-section2,
+.bottom-bottom-section3,
+.bottom-bottom-section4 {
+  display: flex;
+  margin-right: 20px;
+  font-size: 11px;
+}
+
+.chat-area-icon,
+.turning-arrow-icon,
+.flag-icon {
+  width: 20px;
+  align-self: center;
+  margin-right: 4px;
+}
+
+.pre-bottom-section {
+  background-color: #f6f8fa;
+  color: #2e2828;
+  text-align: left;
+  padding: 10px;
+  font-size: 13px;
+  font-weight: 900;
+}
+
+.toyota {
+  color: #59a0df;
+  line-height: 20px;
+  font-size: 11px;
 }
 
 /* Side1 */
 
-.popular-side1 {
+.popular-side1,
+.bottom-section2 {
   display: flex;
   flex-direction: column;
 }
