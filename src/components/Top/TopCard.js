@@ -2,6 +2,9 @@ import React from "react";
 
 const TopCard = (props) => {
   return (
+
+
+
     <div className={`trending-content ${props.cssStyle}`}>
       <div className="overlay">
         <div className="overlay-wrapper">
@@ -21,6 +24,8 @@ const TopCard = (props) => {
         </div>
       </div>
     </div>
+
+    
   );
 };
 

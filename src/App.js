@@ -27,6 +27,7 @@ function App() {
       paragraph1: "Marina Ovsyannikova: Russiand",
       paragraph2: " journalist tells of 14-hour...",
       imgSrc: `${process.env.PUBLIC_URL}/images/transparent.jpeg`,
+      footText: "",
       cssStyle: "trending-content3",
     },
 
