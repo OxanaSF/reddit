@@ -1,5 +1,5 @@
 import "./Main.css";
-import sunIcon from "./sun-icon.jpeg";
+import sunIcon from "./images/sun-icon.jpeg";
 import Side from "../Side/Side";
 import Middle from "../Middle/Middle";
 import Top from "../Top/Top";

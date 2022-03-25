@@ -1,5 +1,6 @@
 import React from "react";
 import TopCard from "./TopCard";
+import './Top.css'
 
 const Top = (props) => {
   return (

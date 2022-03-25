@@ -1,0 +1,256 @@
+/* Side1 */
+
+.popular-side1,
+.bottom-section2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.side1-header {
+  height: 100px;
+  background-image: url("./bay_area.jpeg");
+  background-size: cover;
+  border-radius: 6px;
+}
+
+.side1-header-description {
+  padding-left: 20px;
+}
+
+.overlay-side {
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+.side1-main {
+  height: auto;
+}
+
+.side1-main-row,
+.side2-main-row,
+.side3-main-row {
+  color: #1d2327;
+  border-bottom: 2px solid #dae0e6;
+  height: 50px;
+  font-size: 14px;
+  font-weight: bold;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 10px;
+}
+
+.number {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.main-row-left {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.sfba-icon,
+.sf-icon,
+.r-icon,
+.alameda-icon {
+  width: 30px;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+
+.r-icon {
+  width: 0px;
+}
+
+.side1-btn {
+  display: flex;
+  justify-content: center;
+}
+
+.btn-view-all {
+  width: 90%;
+  border: none;
+  padding: 10px 0px;
+  border-radius: 20px;
+  font-weight: 900;
+  letter-spacing: 0.5px;
+  font-size: 14px;
+  background-color: #0179d2;
+  color: #ffff;
+  margin-top: 10px;
+}
+
+.btn-join {
+  border: none;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: bold;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: #0179d2;
+  color: #ffff;
+}
+
+.side1-footer {
+  display: flex;
+  margin-left: 15px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.btn-side1-foot {
+  margin-right: 10px;
+  background-color: #eef3f7;
+  border: none;
+  padding: 6px 9px;
+  border-radius: 15px;
+  color: #0179d2;
+  font-weight: 900;
+}
+
+/* Side2 */
+
+.popular-side2 {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffff;
+}
+
+.sfba-icon,
+.sf-icon,
+.r-icon,
+.alameda-icon {
+  width: 30px;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+
+.reddit-premium-paragraph {
+  display: flex;
+  color: #666969;
+  align-items: center;
+  line-height: 1.4;
+}
+
+.reddit-premium-icon {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.premium-title {
+  font-weight: bold;
+  color: #0c0f11;
+}
+
+.reddit-premium-text {
+  font-size: 12px;
+  text-align: left;
+}
+
+.reddit-premium-text h4 {
+  font-weight: bold;
+}
+
+.btn-try-now {
+  width: 90%;
+  align-self: center;
+  background-color: #ff4500;
+  color: #ffff;
+  border: none;
+  padding: 8px 0px;
+  border-radius: 20px;
+  font-weight: 900;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+/* Side3 */
+.popular-side3 {
+  text-align: left;
+  font-size: 10px;
+  padding-top: 10px;
+  color: black;
+}
+
+.side3-header {
+  padding-left: 10px;
+}
+
+.side3-header-title {
+  font-size: 9px;
+  letter-spacing: 0.2px;
+  font-weight: bold;
+  color: #0c0f11;
+}
+
+.side3-header-content p {
+  word-spacing: 17px;
+  line-height: 22px;
+  color: #0c0f11;
+}
+
+.side3-main {
+  border-top: 1px solid #dae0e6;
+  color: #0c0f11;
+}
+
+.side3-main-row {
+  text-transform: uppercase;
+  border-bottom: 1px solid #dae0e6;
+  height: 40px;
+  letter-spacing: 0.5px;
+  font-size: 8px;
+  padding-left: 10px;
+  color: #0c0f11;
+}
+
+.side3-header-see-more {
+  color: #046cbb;
+  font-size: 12px;
+  font-weight: 900;
+  font-weight: bolder;
+  padding-bottom: 7px;
+}
+
+/* Side4 */
+
+.popular-side4 {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffff;
+  color: #1a1b1b;
+  font-size: 10px;
+  text-align: left;
+  padding: 10px;
+}
+
+.side4-main {
+  display: flex;
+  line-height: 2;
+  color: #666969;
+}
+
+.side4-main li {
+  list-style: none;
+}
+
+.side4-col {
+  margin-left: 0px;
+}
+
+.side4-help {
+  width: 50%;
+}
+
+.side4-footer {
+  width: 100%;
+  margin-top: 20px;
+  color: #666969;
+}
